@@ -15,6 +15,7 @@
 		0FCCF4F3287D33F400FE030A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCCF4F1287D33F400FE030A /* Main.storyboard */; };
 		0FCCF4F5287D33F400FE030A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCCF4F4287D33F400FE030A /* Assets.xcassets */; };
 		0FCCF4F8287D33F400FE030A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCCF4F6287D33F400FE030A /* LaunchScreen.storyboard */; };
+		0FCCF500287D476D00FE030A /* CocoaDemoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCF4FF287D476D00FE030A /* CocoaDemoFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0FCCF4F4287D33F400FE030A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FCCF4F7287D33F400FE030A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FCCF4F9287D33F400FE030A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FCCF4FF287D476D00FE030A /* CocoaDemoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaDemoFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		0FCCF4DB287D33D700FE030A /* CocoaDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0FCCF4FF287D476D00FE030A /* CocoaDemoFile.swift */,
 				0FCCF4DC287D33D700FE030A /* CocoaDemo.h */,
 				0FCCF4DD287D33D700FE030A /* CocoaDemo.docc */,
 			);
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FCCF500287D476D00FE030A /* CocoaDemoFile.swift in Sources */,
 				0FCCF4DE287D33D700FE030A /* CocoaDemo.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,7 +373,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,7 +401,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
